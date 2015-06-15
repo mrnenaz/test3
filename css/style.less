@@ -1,0 +1,307 @@
+/* переменные начало */
+	@colorWhite: #ffffff;
+	@colorRed: red;
+	@color: #faa51a;
+	@colMenuTable: #d5d5d5;
+/* переменные конец */
+
+/* index.php начало */
+#loginPas{
+	height:668px;
+	background-attachment:fixed;
+}
+#login_pas{
+	margin-top:20px;
+}
+#login_pas div{
+	float:left;
+}
+.LP{
+	margin-left:30px;
+}
+#L{
+	margin-right:10px;
+}
+#P{
+	margin-right:4px;
+}
+#log_pas{
+	margin-left:125px;
+}
+/* index.php конец */
+/* main.html начало*/
+html{
+	overflow:hidden;
+}
+body{
+	margin:0px;
+}
+#mainPage{
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-image:url(../pictures/background.jpg);
+}
+#parser{
+	display:none;
+}
+/* main.html конец*/
+/* page.php начало*/
+#pageF{
+	width:850px;
+	background-color: @colorWhite; 
+	padding-left:0px;
+}
+#back{
+	height: 40px;
+}
+#sin{
+	float:left;
+}
+#butFT{
+	display:none;
+	margin-left:100px;
+	float:left;
+}
+#delete{
+	margin-left:100px;
+	float:left;
+}
+#exeName{
+	display:none;
+}
+#photoblock{
+	float:left;
+	height:295px;
+	width:220px;
+}
+#filmImgBox2 img{
+	width:205px;
+}
+.infTabActList{
+	float:left;
+	height:250px;
+}
+#infoTable{
+	width:440px;
+}
+#actorList{
+	width:150px;
+}
+#description{
+	float:left;
+	text-align:justify;
+	width:825px;
+	padding:10px;
+}
+.tdNull{
+	height:5px;
+	background:@colMenuTable;
+}
+/* page.php конец*/
+/* menu.php начало*/
+.buttonM {
+    background: -webkit-gradient(linear, left top, left bottom, from(@color + #151515), to(@color - #151515));
+    background: -moz-linear-gradient(top,  @color + #151515,  @color - #151515);
+	cursor:pointer; 
+	width:87px;
+}
+#prev{
+	margin-right:15px; 
+	float:left;
+}
+#menuTable{
+	background:@colMenuTable;
+	width:850px;
+}
+#exit{
+	float:left;
+}
+#page{
+	padding-top:10px; 
+	margin-left:auto; 
+	margin-right:auto; 
+	background-color: @colorWhite; 
+	opacity: 0.9;
+}
+.pageNumAll{
+	text-align:center;
+	width:15px;
+	text-decoration:underline;
+	cursor:pointer;
+}
+.pageNumAllAct{
+	/*text-align:center;
+	width:15px;
+	text-decoration:underline;
+	cursor:pointer;*/
+	background:@colorRed;
+}
+#search_text{
+	width:300px;
+}
+.photoblock{
+	float:left;
+	height:300px;
+	width:220px;
+}
+.filmPoster{
+	margin-top:5px;
+	margin-left:7px;
+	cursor:pointer;
+	width:205px;
+	height:290px;
+}
+.iDiv{
+	margin-left:6px;
+	/*height:60px;*/
+	height:44px;
+	width:205px;
+	background:@colorWhite;
+	border: solid 1px black;
+	/*display:none;*/
+	position:relative;
+	/*top:-65px;*/
+	top:-49px;
+	opacity: 0.9;
+}
+.dImg{
+	width:35px;
+	height:30px;
+	left:4px;
+	top:7px;
+	cursor:pointer;
+	position:relative;
+}
+.stars{
+	position:relative;
+	top:5px;
+	left:5px;
+	font-size:26pt;
+	font-weight:900;
+}
+/* menu.php конец*/
+.cl1{
+	width:200px;
+	height:50px;
+	background:@colorRed;
+	position:absolute;
+	top:300px;
+	left:400px;
+}
+
+#add_film_main{
+
+	
+}
+
+#add_film{
+	float:left;
+	padding-left:15px;
+	height:200px;
+}
+
+.add_info_film{
+	width:300px;
+	background:#d5d5d5;
+	color:#032200;
+	
+}
+
+.film_to_acter{
+	width:330px;
+}
+
+.add_info_fil_text{
+	width:160px;
+	height:24px;
+	position:relative;
+	top:6px;
+}
+
+li{
+	font-size:12px;
+}
+
+a:hover{
+	color:red;
+}
+
+#loginPas{
+	/*background: url(pictures/Papel-de-Parede-Marvel-Super-Herois-Simbolos.jpg) repeat-y #fc0;*/
+	/*background: url(pictures/marvel-faces.jpg) no-repeat;*/
+	/*background: url(pictures/mstiteli.jpg) no-repeat;*/
+}
+/*
+ @media screen and (min-device-width: 1280px) {
+    div {width: 1366px;}
+}
+@media screen and (min-device-height: 768px){
+	div {height: 768px;}
+}*/
+.textCss{
+	height:22px; 
+	width:170px;
+}
+.marginLeft30{
+	margin-left:30px;
+}
+.divFloatLeft{
+	float: left;
+}
+.inpWid170{
+	width:170px;
+}
+
+#geristr{
+	background-color:#6791CD;
+	width:325px;
+	height:100px;
+	border-style:double;
+	border-radius:15px;
+	border-color:#621E29;
+	position:relative;
+	left:36%;
+	top:40%;
+}
+
+#load{
+	background-image:url(http://localhost:8008/images/system/searching_progress.gif); 
+	background-repeat: no-repeat; 
+	position:relative;
+	top:50%;
+	left:50%;
+	width:50px;
+	height:50px;
+}
+
+.page{
+	/*background-image:url(http://localhost:8008/pictures/background.jpg); 
+	background-repeat: no-repeat; 
+	background-attachment:fixed;*/
+}
+
+.autorise{
+	background-color:#6791CD;
+	width:325px;
+	height:100px;
+	border-style:double;
+	border-radius:15px;
+	border-color:#621E29;
+	position:relative;
+	left:36%;
+	top:40%;
+	
+}
+body{
+-moz-user-select: -moz-none;
+-o-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.film_to_acter{
+	text-align:center;
+	background:#d5d5d5;
+	color:#032200;
+}
